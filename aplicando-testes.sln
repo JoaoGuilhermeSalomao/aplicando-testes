@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Temperatura", "Temperatura\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Temperatura.Testes", "Temperatura.Testes\Temperatura.Testes.csproj", "{C7730879-57B1-441A-AE95-01389BABF776}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsultaCredito", "ConsultaCredito\ConsultaCredito.csproj", "{B6FAE50D-F2FA-437C-B323-6DEE851FDCB7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsultaCredito.Testes", "ConsultaCredito.Testes\ConsultaCredito.Testes.csproj", "{49A56AE1-AF1F-4133-945C-7D3B1DEE5332}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +28,13 @@ Global
 		{C7730879-57B1-441A-AE95-01389BABF776}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C7730879-57B1-441A-AE95-01389BABF776}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C7730879-57B1-441A-AE95-01389BABF776}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6FAE50D-F2FA-437C-B323-6DEE851FDCB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6FAE50D-F2FA-437C-B323-6DEE851FDCB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6FAE50D-F2FA-437C-B323-6DEE851FDCB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6FAE50D-F2FA-437C-B323-6DEE851FDCB7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49A56AE1-AF1F-4133-945C-7D3B1DEE5332}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49A56AE1-AF1F-4133-945C-7D3B1DEE5332}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49A56AE1-AF1F-4133-945C-7D3B1DEE5332}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49A56AE1-AF1F-4133-945C-7D3B1DEE5332}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

@@ -22,5 +22,26 @@ Print do teste sendo executado:
 ### Como executar
 
 ```bash
-dotnet test Temperatura.Testes/Temperatura.Testes.csproj
+/Users/joaogui/.dotnet/dotnet test Temperatura.Testes/Temperatura.Testes.csproj
+```
+
+## Testes com Mock Objects usando Moq
+
+Mock objects permitem testar uma regra de negócio sem depender diretamente de serviços externos, bancos de dados ou integrações reais. Neste projeto, a classe `AnaliseCredito` consulta a interface `IServicoConsultaCredito` para decidir se um CPF está sem pendências, inadimplente, inválido ou se houve erro de comunicação.
+
+A aplicação do teste usa Moq para simular o comportamento do serviço de consulta de crédito. Cada CPF preparado no teste retorna um resultado diferente: lista vazia, lista com pendências, retorno nulo ou exceção. As validações são feitas com Fluent Assertions, deixando as expectativas mais legíveis.
+
+Exemplos de cenários:
+
+1. Quando o serviço retorna uma lista vazia para o CPF consultado, o resultado esperado é `SemPendencias`.
+2. Quando o serviço retorna uma lista com uma pendência, o resultado esperado é `Inadimplente`.
+
+Print do teste sendo executado:
+
+![Print dos testes com mock objects](docs/images/testes-mock-objects.png)
+
+### Como executar
+
+```bash
+/Users/joaogui/.dotnet/dotnet test ConsultaCredito.Testes/ConsultaCredito.Testes.csproj
 ```
