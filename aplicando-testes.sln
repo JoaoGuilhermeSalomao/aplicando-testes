@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsultaCredito", "Consulta
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsultaCredito.Testes", "ConsultaCredito.Testes\ConsultaCredito.Testes.csproj", "{49A56AE1-AF1F-4133-945C-7D3B1DEE5332}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APIFinancas", "APIFinancas\APIFinancas.csproj", "{285CA87A-7E90-405E-A196-A2F04C1B864F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APIFinancas.Especificacoes", "APIFinancas.Especificacoes\APIFinancas.Especificacoes.csproj", "{5512D122-E4CC-46FB-BC45-1FE287CF38CB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,5 +40,13 @@ Global
 		{49A56AE1-AF1F-4133-945C-7D3B1DEE5332}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{49A56AE1-AF1F-4133-945C-7D3B1DEE5332}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{49A56AE1-AF1F-4133-945C-7D3B1DEE5332}.Release|Any CPU.Build.0 = Release|Any CPU
+		{285CA87A-7E90-405E-A196-A2F04C1B864F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{285CA87A-7E90-405E-A196-A2F04C1B864F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{285CA87A-7E90-405E-A196-A2F04C1B864F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{285CA87A-7E90-405E-A196-A2F04C1B864F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5512D122-E4CC-46FB-BC45-1FE287CF38CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5512D122-E4CC-46FB-BC45-1FE287CF38CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5512D122-E4CC-46FB-BC45-1FE287CF38CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5512D122-E4CC-46FB-BC45-1FE287CF38CB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

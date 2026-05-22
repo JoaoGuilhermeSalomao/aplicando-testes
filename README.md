@@ -45,3 +45,24 @@ Print do teste sendo executado:
 ```bash
 /Users/joaogui/.dotnet/dotnet test ConsultaCredito.Testes/ConsultaCredito.Testes.csproj
 ```
+
+## Testes BDD com SpecFlow
+
+Testes BDD descrevem o comportamento esperado do sistema em uma linguagem mais próxima do negócio. Neste projeto, o arquivo `CalculoJurosCompostos.feature` apresenta cenários de cálculo de empréstimo com valor inicial, quantidade de meses, taxa mensal e valor final esperado.
+
+A aplicação do teste usa SpecFlow para transformar os passos `Dado`, `Quando` e `Então` em chamadas de código. Os step definitions recebem os valores do cenário, executam o método `CalculoFinanceiro.CalcularValorComJurosCompostos` e validam o resultado com Fluent Assertions.
+
+Exemplos de cenários:
+
+1. Para um empréstimo de `R$ 10.000,00` em `12` meses com taxa de `2,00%` ao mês, o valor final esperado é `R$ 12.682,42`.
+2. Para um empréstimo de `R$ 30.000,00` em `3` meses com taxa de `3,00%` ao mês, o valor final esperado é `R$ 32.781,81`.
+
+Print do teste sendo executado:
+
+![Print dos testes BDD com SpecFlow](docs/images/testes-bdd-specflow.png)
+
+### Como executar
+
+```bash
+/Users/joaogui/.dotnet/dotnet test APIFinancas.Especificacoes/APIFinancas.Especificacoes.csproj
+```
